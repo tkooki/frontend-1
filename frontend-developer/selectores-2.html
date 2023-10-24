@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: blue;
+        }
+        div > div {
+            background: lime;
+        }
+        .mundo {
+            background: red;
+        }
+        div + section {
+            background: grey;
+        }
+        div ~ p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <div>
+        <p>Hola</p>
+        <div class="mundo">mundo</div>
+    </div>
+   </div>
+   <p>clase de selectores</p> 
+   <section>
+        hola
+    </section>
+   <div>
+    mundo
+   </div>
+</body>
+</html>
